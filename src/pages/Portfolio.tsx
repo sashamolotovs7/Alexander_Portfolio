@@ -1,5 +1,5 @@
-import './Portfolio.css';
-import Header from '../components/Header'; // Import the header component
+import './portfolio.css'; // Import the portfolio page styles
+import Header from '../components/Header'; // Import the shared Header component
 import project1Image from '../assets/imgs/Project1.jpg'; // Example project images
 import project2Image from '../assets/imgs/Project2.jpg';
 import project3Image from '../assets/imgs/Project3.jpg';
