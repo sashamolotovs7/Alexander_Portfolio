@@ -1,8 +1,8 @@
 import './portfolio.css'; // Import the portfolio page styles
 import Header from '../components/Header'; // Import the shared Header component
-import project1Image from '../assets/imgs/project1.jpg'; // Example project images
-import project2Image from '../assets/imgs/project2.jpg';
-import project3Image from '../assets/imgs/project3.jpg';
+import project1Image from '../assets/imgs/pr1.jpg'; // Example project images
+import project2Image from '../assets/imgs/pr2.jpg';
+import project3Image from '../assets/imgs/pr3.jpg';
 
 function Portfolio() {
   return (
