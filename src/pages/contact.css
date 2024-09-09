@@ -1,0 +1,45 @@
+
+.contact-box {
+  background-color: #f5f5f5; /* Light background for the box */
+  color: #333; /* Text color inside the box */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px; /* Limit the maximum width */
+  margin: 0 auto; /* Center the box */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+
+.contact-box h1 {
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  text-align: left; /* Align form elements to the left inside the box */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333; /* Darker label color */
+}
+
+
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

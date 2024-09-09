@@ -1,0 +1,49 @@
+/* .header {
+    width: 100%;              /* Full width */
+    background-color: #282c34; /* Background color */
+    padding: 20px;             /* Padding for some spacing */
+    color: white;              /* Text color */
+    box-sizing: border-box;    /* Include padding in the width */
+    position: fixed;           /* Make the header stick to the top */
+    top: 0;
+    left: 0;
+    z-index: 1000;             /* Ensure the header is always on top */
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between; /* Align the name and navigation to the sides */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;        /* Keep content within a maximum width */
+    margin: 0 auto;           /* Center the content horizontally */
+  }
+  
+  .header-name {
+    font-size: 1.8rem;        /* Larger font size for the name */
+    margin: 0;                /* Remove default margin */
+  }
+  
+  .header-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;                /* Add spacing between navigation items */
+    margin: 0;                /* Remove default margin */
+    padding: 0;               /* Remove default padding */
+  }
+  
+  .header-nav ul li a {
+    color: white;             /* Text color */
+    text-decoration: none;    /* Remove underlines from links */
+    font-size: 1.2rem;        /* Increase font size */
+  }
+  
+  .header-nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Add some margin below the header to avoid overlap with content */
+  body {
+    padding-top: 80px; /* Ensure the body content starts below the fixed header */
+  }
+   */

@@ -1,0 +1,14 @@
+.landing-page {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .landing-page h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page p {
+    font-size: 1.5rem;
+  }
+  

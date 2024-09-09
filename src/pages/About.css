@@ -1,0 +1,161 @@
+/* General page styling */
+.about-page {
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding-top: 20px;
+}
+
+/* Check for any unwanted background colors */
+div, section {
+  background-color: transparent; /* or remove this property */
+  /* Remove or adjust any excessive padding or margin */
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Header styling */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #001f3f; /* Dark background for the header */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.logo-holder {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  color: white; /* Set logo color to white */
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  color: white; /* Set "Portfolio Website" to white */
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: white; /* Set all the menu items (Home, About Me, etc.) to white */
+  font-weight: 600;
+}
+
+#menu li a:hover {
+  color: #007bff; /* Optional: change color on hover */
+}
+
+/* Main content layout */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+  gap: 20px; /* Space between the containers */
+  padding-top: 40px;
+}
+
+/* Ensure both containers have equal height and width */
+.about-left,
+.about-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-box, .blue-container {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  height: 100%; /* Ensure both containers stretch to full height */
+}
+
+/* Left (light blue container with text) */
+.about-left .about-box {
+  background-color: #d0e8ff; /* Light blue background */
+}
+
+.about-box h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.about-box p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-me {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-me:hover {
+  background-color: #0056b3;
+}
+
+/* Right (dark blue container with icon) */
+.about-right .blue-container {
+  background-color: #001f3f; /* Dark blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-icon {
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+}
+
+/* Marquee styling */
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.track {
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.track img {
+  margin-right: 30px;
+}
