@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Contact.css'; // Ensure you import the CSS
+import './contact.css'; // Import the Contact component styles
 import Header from '../components/Header'; // Import the shared Header component
 
 function Contact() {
