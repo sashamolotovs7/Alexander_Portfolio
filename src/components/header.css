@@ -1,4 +1,4 @@
-/* .header {
+.header {
     width: 100%;              /* Full width */
     background-color: #282c34; /* Background color */
     padding: 20px;             /* Padding for some spacing */
@@ -46,4 +46,3 @@
   body {
     padding-top: 80px; /* Ensure the body content starts below the fixed header */
   }
-   */
