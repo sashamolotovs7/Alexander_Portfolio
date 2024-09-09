@@ -1,5 +1,5 @@
 import resumeFile from '../assets/Resume.pdf';
-import './Resume.css'; // Import the correct CSS file
+import './resume.css'; // Import the correct CSS file
 import Header from '../components/Header'; // Import the shared Header component
 
 function Resume() {
